@@ -24,3 +24,6 @@ class Card:
             self.value = "Queen"
         elif self.value == 13:
             self.value = "King"
+
+    def name(self):
+        return f"{self.value} of {self.mark}"
